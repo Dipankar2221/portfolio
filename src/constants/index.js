@@ -4,6 +4,8 @@ import projectImg1 from '../assets/images/portofolio.png';
 import projectImg3 from '../assets/images/fitness.png';
 import projectImg4 from '../assets/images/dashboard.png';
 import projectImg5 from '../assets/images/github.png';
+import projectImg2 from '../assets/images/eccomerce.png';
+import projectImg6 from '../assets/images/LuminaAi.png';
 
 export const navLinks = [
   { id: 'about', title: 'About' },
@@ -62,9 +64,35 @@ export const projects = [
   tags: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Framer Motion'], // Updated tags
   githubUrl: 'https://github.com/Dip-ankar/portfolio.git',
   liveUrl: 'https://portfolio-zeta-ashen-50.vercel.app/'
+}, {
+  _id: '2',
+  title: 'GitHub Profile Finder',
+  description: 'A simple web application built with HTML, CSS, and JavaScript that allows users to search for GitHub profiles by username. It fetches user details such as profile picture, bio, repositories, and followers using the GitHub API.',
+  imageUrl: projectImg5, // Replace with your actual image URL
+  tags: ['HTML', 'CSS', 'JavaScript'],
+  githubUrl: 'https://github.com/Dip-ankar/github-user-finder.git',
+  liveUrl: 'https://dip-ankar.github.io/github-user-finder/'
 },
 {
-  _id: '2',
+  _id: '3',
+  title: 'E-commerce Platform',
+  description: 'A full-stack e-commerce web application built using the MERN stack. It includes user authentication, product management, shopping cart, order processing, and secure payment integration.',
+  imageUrl: projectImg2, // Replace with your actual image
+  tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Redux', 'Stripe API'],
+  githubUrl: 'https://github.com/Dipankar2221/Ecomerce.git',
+  liveUrl: 'https://ecomerce-olive-seven.vercel.app/'
+},
+{
+  _id: '4',
+  title: 'Subject Explainer AI',
+  description: 'An AI-powered web application that explains complex topics in simple terms. Users can input any subject, and the system generates easy-to-understand explanations using AI APIs.',
+  imageUrl: projectImg6, // Replace with your actual image
+  tags: ['React', 'Node.js', 'OpenAI API', 'MongoDB', 'Tailwind CSS'],
+  githubUrl: 'https://github.com/Dipankar2221/LuminaAi.git',
+  liveUrl: 'https://lumina-ai-bay.vercel.app/'
+},
+{
+  _id: '5',
   title: 'ChatGPT Clone',
   description: 'A full-stack real-time chat application inspired by ChatGPT. Built with React for the frontend and styled with CSS, it uses Express.js with MongoDB as the backend, Socket.IO for live communication, and Vector Database integration for storing and retrieving embeddings to provide intelligent conversational responses.',
   imageUrl: 'https://user-images.githubusercontent.com/10207753/220455546-5948d56c-adec-49a3-aee0-05cf64e60e13.png', // Replace with your actual image URL
@@ -72,9 +100,18 @@ export const projects = [
   githubUrl: 'https://github.com/yourusername/chatgpt-clone',
   liveUrl: 'https://your-live-project-4.com'
 },
+{
+  _id: '6',
+  title: 'fit ness website',
+  description: 'A simple and responsive to-do list application built with React.js and styled using Tailwind CSS. It allows users to add, edit, delete, and mark tasks as complete. Integrated with React-Toastify for smooth and interactive notifications to enhance user experience.',
+  imageUrl: projectImg3, // Replace with your actual image URL
+  tags: ['React.js', 'Tailwind CSS', 'React-Toastify'],
+  githubUrl: 'https://github.com/Dip-ankar/FittClub.git',
+  liveUrl: 'https://fittnes-gym.netlify.app/'
+},
 
   {
-  _id: '3',
+  _id: '7',
   title: 'Mood-Based Song Detection',
   description: 'A full-stack web application that detects a user’s mood and recommends songs accordingly. Built with React for the frontend, styled using Tailwind CSS, and powered by an Express.js backend with MongoDB for storing and managing song data.',
   imageUrl: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/318/436/datas/original.png', // Replace with your actual image URL
@@ -82,18 +119,8 @@ export const projects = [
   githubUrl: 'https://github.com/yourusername/mood-based-song-detection',
   liveUrl: 'https://your-live-project-3.com'
 },
-
 {
-  _id: '4',
-  title: 'fit ness website',
-  description: 'A simple and responsive to-do list application built with React.js and styled using Tailwind CSS. It allows users to add, edit, delete, and mark tasks as complete. Integrated with React-Toastify for smooth and interactive notifications to enhance user experience.',
-  imageUrl: projectImg3, // Replace with your actual image URL
-  tags: ['React.js', 'Tailwind CSS', 'React-Toastify'],
-  githubUrl: 'https://github.com/Dip-ankar/FittClub.git',
-  liveUrl: 'https://fittnes-gym.netlify.app/'
-}
-,{
-  _id: '5',
+  _id: '8',
   title: 'Productivity Dashboard',
   description: 'A productivity-focused web application built with HTML, CSS, SCSS, and JavaScript. It includes a daily planner, to-do list, Pomodoro timer, motivational quotes, and daily goals tracking to help users stay organized and motivated.',
   imageUrl: projectImg4, // Replace with your actual image URL
@@ -101,15 +128,4 @@ export const projects = [
   githubUrl: 'https://github.com/Dip-ankar/pro-ductivity-dashboard.git',
   liveUrl: 'https://dip-ankar.github.io/pro-ductivity-dashboard/'
 }
-,
-  {
-  _id: '6',
-  title: 'GitHub Profile Finder',
-  description: 'A simple web application built with HTML, CSS, and JavaScript that allows users to search for GitHub profiles by username. It fetches user details such as profile picture, bio, repositories, and followers using the GitHub API.',
-  imageUrl: projectImg5, // Replace with your actual image URL
-  tags: ['HTML', 'CSS', 'JavaScript'],
-  githubUrl: 'https://github.com/Dip-ankar/github-user-finder.git',
-  liveUrl: 'https://dip-ankar.github.io/github-user-finder/'
-}
-
 ];
